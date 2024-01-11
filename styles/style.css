@@ -105,3 +105,62 @@ body{
     background-color:hotpink;
     color:#070211;
 }
+/*design for offer section*/
+#offer-wraper{
+    margin:120px 100px;
+    margin-top:200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+/*style for offer inner part*/
+.offer-left h3{
+    font-family:Inter;
+    font-size:24px;
+    color:#F00;
+    font-weight:500;
+    margin-bottom:20px;
+}
+.offer-left h2{
+    font-size:48px;
+    color:#070211;
+    font-weight:900;
+    margin-bottom:20px;
+}
+.offer-left p{
+    font-family:Inter;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(7, 2, 17, 0.60);
+    line-height:32px;
+}
+/*style middle part*/
+.offer-middle{
+    border:10px solid red;
+    border-radius:50%;
+    margin-top:-100px;
+}
+.offer-middle img{
+    padding:20px;
+}
+/*style for right part*/
+.offer-right h2{
+    font-family:Inter;
+    font-size:48px;
+    font-weight:700;
+    color:#F00;
+    margin-bottom:20px;
+}
+.offer-right p{
+    font-family:Inter;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(7, 2, 17, 0.60);
+    line-height:32px;
+    margin-bottom:20px;
+}
+.offer-right img{
+    width:140px;
+    height:140px;
+}
