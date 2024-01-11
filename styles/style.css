@@ -1,3 +1,61 @@
-h2{
-    color:red;
+/*website main design part here*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/* google font */
+body{
+    font-family: 'Merriweather', serif;
+}
+#header{
+    background-image:url('../images/Vectorrr.png');
+    background-repeat:no-repeat;
+    margin:50px 100px;
+    padding:160px 0px;
+    position:relative;
+    background-position:right -60px;
+}
+.header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin: 0px 70px;
+}
+.header-inner-left{
+    width:60%;
+}
+.header-title{
+    color:#ffffff;
+    font-size:60px;
+    font-weight:900;
+    line-height:88px;
+    letter-spacing:7.04px;
+}
+.header-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-family:Inter;
+    font-size:18px;
+    font-weight:400;
+    line-height:30px;
+}
+.header-inner-right{
+    width:40%;
+    position:absolute;
+    right:-70px;
+}
+.header-inner-right img{
+    height:360px;
+    margin-top:-20px;
+}
+.header-btn{
+    border:none;
+    margin-top:20px;
+    background:none;
+    text-align:center;
+    font-family:Inter;
+    font-size:20px;
+    font-weight:600;
+    color:#ffffff;
+    margin-left:50px;
+    cursor:pointer;
 }
