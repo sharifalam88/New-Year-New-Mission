@@ -179,7 +179,7 @@ body{
     font-size:24px;
     font-weight:500;
     color:#070211;
-    margin-bottom:20px;
+    margin:20px 0px;
 }
 .holyday-text-part h2{
     font-size:72px;
@@ -228,3 +228,86 @@ body{
 .fourth-img{
     z-index:10;
 }
+/* style for image gallry*/
+#image-gallry{
+    margin:50px 100px;
+}
+.text-area{
+    margin-bottom:30px;
+    margin-top:20px;
+}
+.text-area h3{
+    font-family:Inter;
+    font-size:24px;
+    font-weight:500;
+    color:#F00;
+    margin-bottom:10px;
+}
+.text-area h2{
+    font-size:48px;
+    color:#070211;
+    font-weight:900;
+    margin-bottom:10px;
+}
+.text-area p{
+    font-family:Inter;
+    font-size:20px;
+    color:rgba(7, 2, 17, 0.60);
+    font-weight:400;
+    line-height:32px;
+}
+/*design text area*/
+
+/*design for image box area*/
+.image-area{
+   display:flex;
+   justify-content:space-between;
+   flex-wrap:wrap;
+   gap:20px;
+}
+.image-area img{
+    width:350px;
+    height:400px;
+}
+/*End image box area*/
+/*design for subcribe section*/
+#subcribe{
+    margin:50px 100px;
+    background:rgba(255, 0, 0, 0.05);
+    text-align:center;
+    padding:100px 0px;
+}
+#subcribe img{
+    margin-bottom:30px;
+}
+#subcribe h2{
+    font-size:48px;
+    font-weight:900;
+    color:#070211;
+    margin-bottom:20px;
+}
+#subcribe p{
+    font-size:20px;
+    font-weight:400;
+    line-height:32px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-bottom:20px;
+}
+/*design subcribe button*/
+#subcribe .sub-input{
+    background:#ffffff;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    width:200px;
+}
+#subcribe .sub-btn{
+    padding:15px 10px;
+    border:none;
+    background:#F00;
+    color:#ffffff;
+    width:100px;
+    border-radius:0px 50px 50px 0px;
+    cursor:pointer;
+}
+/*End design message section*/
