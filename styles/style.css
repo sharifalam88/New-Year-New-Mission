@@ -164,3 +164,67 @@ body{
     width:140px;
     height:140px;
 }
+/* end style offer-right part*/
+
+/*design for holyday section*/
+#holyday-wrapper{
+    margin:100px 0px;
+}
+.holyday-text-part{
+    text-align:center;
+    margin:50px 200px;
+}
+.holyday-text-part h3{
+    font-family:Inter;
+    font-size:24px;
+    font-weight:500;
+    color:#070211;
+    margin-bottom:20px;
+}
+.holyday-text-part h2{
+    font-size:72px;
+    font-weight:900;
+    color:#070211;
+    margin-bottom:20px;
+}
+.holyday-text-part p{
+    font-size:20px;
+    font-weight:500;
+    line-height:32px;
+    color:rgba(7, 2, 17, 0.60);
+    margin-bottom:30px;
+}
+/*End holyday text part design*/
+
+/*design for holyday images wraper section*/
+#img-wraper{
+    margin:50px 100px;
+    overflow:hidden;
+    position:relative;
+    padding-top:450px;
+}
+.fist-img{
+    position:absolute;
+    bottom:50px;
+    left:50px;
+}
+.fist-img img{
+    width:500px;
+    height:550px;
+}
+/* using z-index for image*/
+.second-img{
+    position:absolute;
+    right:270px;
+    bottom:250px;
+    z-index:15;
+}
+.third-img{
+    position:absolute;
+    right:0;
+    bottom:228px;
+    z-index:5;
+}
+.fourth-img{
+    z-index:10;
+}
