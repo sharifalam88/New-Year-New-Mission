@@ -7,53 +7,84 @@
 body{
     font-family: 'Merriweather', serif;
 }
-/*style header section*/
+/*Style banner section*/
 #header{
+    margin:80px 100px;
+    background-image:url('../images/Banner\ Image.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    border-radius:16px;
+}
+/*style for header inner part*/
+.header-inner{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding:150px 0px;
+    border-radius:16px;
+}
+#header .header-inner h3{
+    font-size:32px;
+    color:#ffffff;
+    font-weight:400;
+}
+#header .header-inner h2{
+    color:#ffffff;
+    font-size:72px;
+    font-weight:900;
+    line-height:95px;
+}
+/*End header inner part*/
+
+
+
+
+/*style welcome section*/
+#welcome{
     background-image:url('../images/Vectorrr.png');
     background-repeat:no-repeat;
     margin:50px 100px;
     position:relative;
 }
-.header-inner{
+.welcome-inner{
     display:flex;
     align-items:center;
     justify-content:space-between;
    
 }
 /*style header left part*/
-.header-inner-left{
+.welcome-inner-left{
     width:60%;
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     padding:150px 0px;
     padding-left:60px;
 }
-.header-title{
+.welcome-title{
     color:#ffffff;
     font-size:60px;
     font-weight:900;
     line-height:88px;
     letter-spacing:7.04px;
 }
-.header-text{
+.welcome-text{
     color: rgba(255, 255, 255, 0.80);
     font-family:Inter;
     font-size:18px;
     font-weight:400;
     line-height:30px;
 }
-/*style header right part*/
-.header-inner-right{
+/*style welcome section right part*/
+.welcome-inner-right{
     width:40%;
     position:absolute;
     right:-70px;
     padding:160px 0px;
 }
-.header-inner-right img{
+.welcome-inner-right img{
     height:360px;
     margin-top:-20px;
 } 
-/*style header button part*/
-.header-btn{
+/*style welcome section button*/
+.welcome-btn{
     border:none;
     margin-top:20px;
     background:none;
@@ -64,7 +95,7 @@ body{
     color:#ffffff;
     margin-left:50px;
 }
-.header-btn:hover{
+.welcome-btn:hover{
     color:#F00; 
 }
 /*Start address section styling*/
