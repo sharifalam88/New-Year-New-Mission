@@ -35,9 +35,39 @@ body{
 }
 /*End header inner part*/
 
-
-
-
+/*design for catagory section*/
+#catagory{
+    text-align:center;
+}
+.catagory-text h2{
+    color:#F00;
+    font-family:Inter;
+    font-size:88px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.catagory-text h4{
+    color:#F00;
+    font-size:24px;
+    font-weight:400;
+    font-family:Inter;
+    margin-bottom:10px;
+}
+.catagory-text h3{
+    color:#070211;
+    font-size:48px;
+    font-weight:700;
+    font-family:Inter;
+}
+/*design catagory img part*/
+.catagory-img{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+.catagory-img img{
+    width:600px;
+    height:400px;
+}
 /*style welcome section*/
 #welcome{
     background-image:url('../images/Vectorrr.png');
