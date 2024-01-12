@@ -372,3 +372,85 @@ body{
     cursor:pointer;
 }
 /*End design message section*/
+
+/*  ===*== design  for footer section ==*==  */
+#footer{
+    background-color:#070211;
+    padding:100px;
+}
+/*design top footer*/
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0px;
+    padding:0px 20px;
+}
+
+.footer-top-inner-left p, .footer-top-inner-right p{
+    font-family:Inter;
+    font-size:24px;
+    color:#ffffff;
+    font-weight:400;
+    line-height:40px;
+}
+.footer-top-inner-right span{
+    margin-right:10px;
+    color:#cccccc;
+}
+/* End top footer design*/
+
+/* design for horizotal rules*/
+hr{
+    height:1px solid #000;
+   
+}
+/* design for middle section*/
+.footer-middle{
+   margin:50px 0px;
+}
+.footer-middle ul{
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+}
+.footer-middle ul li{
+    text-decoration:none;
+}
+.footer-middle ul li a{
+    padding:0px 10px;
+}
+/* End middle section */
+
+/* Start bottom footer */
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:50px 0px;
+    padding:0px 20px;
+}
+.footer-bottom p{
+    font-family:Inter;
+    font-size:24px;
+    color:#ffffff;
+    font-weight:500;
+}
+.footer-bottom .bottom-footer-btn{
+    font-family:Inter;
+    font-size:24px;
+    color:#ffffff;
+    font-weight:500;
+    cursor:pointer;
+    background:none;
+    border:none;
+}
+/* design footer button hover effect */
+.footer-bottom .bottom-footer-btn:hover{
+    background:#F00;
+    color:#fff;
+    padding:15px 25px;
+    border-radius:10px;
+}
+/* complete footer section */
+
